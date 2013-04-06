@@ -259,7 +259,7 @@ function the_bootstrap_register_scripts_styles() {
 				break;
 
 			case 'child-bootstrap':
-				wp_register_style( 'twitter-bootstrap', $dir_uri . "/css/bootstrap{$suffix}.css", array(), '2.1.1' );
+				wp_register_style( 'child-bootstrap', $dir_uri . "/css/bootstrap{$suffix}.css", array(), '2.1.1' );
 				break;
 				
 			case 'amelia-bootstrap':
