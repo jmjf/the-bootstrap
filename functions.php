@@ -225,7 +225,7 @@ function the_bootstrap_register_scripts_styles() {
 		/**
 		 *  Determine correct uri for bootstrap css and js based on options
 		 */
-		if ( 'child-bootstrap'== the_bootstrap_options()->bootswatch ) {
+		if ( 'child-bootstrap' == the_bootstrap_options()->bootswatch ) {
 			$dir_uri = get_stylesheet_directory_uri();
 		} else {
 			$dir_uri = get_template_directory_uri();
